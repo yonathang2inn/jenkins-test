@@ -1,0 +1,10 @@
+jenkins:
+  controller:
+    admin:
+      password: 'Admin1234#'
+    serviceType: 'NodePort'
+    installPlugins:
+      - kubernetes:4302.va_756e4b_67715
+      - workflow-aggregator:600.vb_57cdd26fdd7
+      - git:5.6.0
+      - configuration-as-code:1903.v004d55388f30
